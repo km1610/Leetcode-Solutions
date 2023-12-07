@@ -1,12 +1,11 @@
 class Solution(object):
     def largestOddNumber(self, num):
-        l,r = 0,len(num)-1
-        while l<=r:
+        r = len(num)-1
+        while r>=0:
             if int(num[r])%2==0:
                 r-=1
             else:
-                return num[l:r+1]
-        return ''
-
+                return num[0:r+1]
+        return '' 
             
         
