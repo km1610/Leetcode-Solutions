@@ -1,11 +1,6 @@
-class Solution(object):
-    def maxScore(self, s):
-        """
-        :type s: str
-        :rtype: int
-        """
+class Solution:
+    def maxScore(self, s: str) -> int:
         s = list(str(s))
-        print(s)
 
         n = len(s)
         zero = s.count('0')
