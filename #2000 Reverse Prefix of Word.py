@@ -1,0 +1,6 @@
+class Solution:
+    def reversePrefix(self, word: str, ch: str) -> str:
+        if ch in word:
+            i = word.index(ch)
+            return word[0:i+1][::-1]+word[i+1::]
+        return word
