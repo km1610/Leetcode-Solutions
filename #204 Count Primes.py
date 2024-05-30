@@ -10,7 +10,7 @@ class Solution:
 
         for i in range(2, int(n ** 0.5) + 1):
             if arr[i]:
-                for j in range(i + i, n, i):
+                for j in range(i * i, n, i):
                     arr[j] = False
 
         return sum(arr)  
