@@ -4,4 +4,4 @@ Hey 👋
 This repository consists of all my leetcode solutions
 
 ### My Leetcode Stats
-[![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/?username=kshiti_16)]()
+![LeetCode Stats](https://leetcard.jacoblin.cool/kshiti_16?theme=dark&font=Gudea&ext=heatmap)
