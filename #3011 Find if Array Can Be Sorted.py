@@ -2,7 +2,6 @@ class Solution:
     def canSortArray(self, nums: List[int]) -> bool:
         def set_bits(num):
             bits = 0
-            t = num
             while num:
                 if num%2:
                     bits += 1
